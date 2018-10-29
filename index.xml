@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yaxel&#39;s Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Yaxel&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Oct 2018 21:31:58 -0700</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hack: Morse Code Phone Notifications</title>
+      <link>http://example.org/posts/hack_morse/</link>
+      <pubDate>Sun, 28 Oct 2018 21:31:58 -0700</pubDate>
+      
+      <guid>http://example.org/posts/hack_morse/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This only works on Android.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I was too lazy to pull out my phone to read notifications, so I programmed it to vibrate in morse
+code. Here&amp;rsquo;s how you could do this too, probably:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Install &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;amp;hl=en_US&#34;&gt;Tasker&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.joaomgcd.autonotification&amp;amp;hl=en_US&#34;&gt;AutoNotification&lt;/a&gt; (not free).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Download and import this &lt;a href=&#34;https://gist.github.com/YaxelPerez/a773f8715eb5040f2085bae1832faed9&#34;&gt;Tasker profile I made&lt;/a&gt;.
+Tap &amp;ldquo;profiles&amp;rdquo; and then &amp;ldquo;import&amp;rdquo; in the Tasker app.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Download &lt;a href=&#34;https://gist.github.com/YaxelPerez/563748a1427990a8e7b7189dca7c6e71&#34;&gt;this JS script&lt;/a&gt;
+somewhere onto your phone. (&lt;a href=&#34;https://tasker.joaoapps.com/userguide/en/javascript.html&#34;&gt;Documentation for the Tasker JS API&lt;/a&gt;).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tap on the profile and edit the task (right side) so that it can find the .js script. I put mine
+in &lt;code&gt;Download/&lt;/code&gt; because I&amp;rsquo;m lazy.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Test the task (press play). It should vibrate &amp;ldquo;SOS&amp;rdquo; in morse code. If it doesn&amp;rsquo;t, StackOverflow
+can&amp;rsquo;t help you. Good luck.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(OPTIONAL) Change the &lt;code&gt;%text&lt;/code&gt; variable. I set it to vibrate the first 3 letters of the app that
+produced the notification, but you can change it to vibrate anything. (&lt;a href=&#34;https://joaoapps.com/variables/&#34;&gt;Full list of
+variables&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Go back and configure the AutoNotification Intercept behavior (tap profile, left side) to select
+which apps to listen to.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you followed all these steps plus some other ones that I forgot, you should now have a new way
+to read notifications. In my experience, friends and family will be marginally impressed.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve only tested this on a Google Pixel 2. Your mileage may vary.&lt;/p&gt;
+
+&lt;h4 id=&#34;possible-improvements&#34;&gt;Possible Improvements:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Increase WPM. I’m not very good at reading morse code so I keep it at ~15 WPM. More experienced
+users could probably set it higher, although I’m sure at some point you would reach the physical
+limitations of your phone’s vibrate feature. This is set in the .js file, but it should be set in
+the task itself.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Disable the original notification vibration. Right now I have it set to wait 500ms because I couldn’t figure out how to get rid of the normal notification vibration.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Hey. I&amp;rsquo;m Yaxel and this is my blog.
+I&amp;rsquo;m a software developer and college freshman based in the Bay Area. I plan on double-majoring in Physics and Mathematics so that I sound smart. You can reach me at yaxelp [at] gmail [dot] com.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" type="text/css" href="/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/layout.css" />
+<link rel="stylesheet" type="text/css" href="/design.css" />
+
+<title>Yaxel&#39;s Blog - Posts</title>
+<body>
+    <div class="container"><header class="blog-header">
+	<h1>Yaxel's Blog</h1>
+	<nav>
+		<a href="/">Home</a>
+		<a href="/posts">Posts</a>
+		<a href="/about">About</a>
+	</nav>
+</header>
+
+<hr>
+	<div class="post-list">
+		
+			<article class="post">
+  <header>
+		<a href="http://example.org/posts/hack_morse/" class="post-link"><h3 class="post-title">Hack: Morse Code Phone Notifications</h3></a>
+		<h4 class="post-date">Posted on 2018-10-28 21:31:58 -0700 PDT</h4>
+  </header>
+	<div class="post-summary">
+		<p><em>Note: This only works on Android.</em></p>
+
+<p>I was too lazy to pull out my phone to read notifications, so I programmed it to vibrate in morse
+code. Here&rsquo;s how you could do this too, probably:</p>
+
+<ol>
+<li><p>Install <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=en_US">Tasker</a> and <a href="https://play.google.com/store/apps/details?id=com.joaomgcd.autonotification&amp;hl=en_US">AutoNotification</a> (not free).</p></li>
+
+<li><p>Download and import this <a href="https://gist.github.com/YaxelPerez/a773f8715eb5040f2085bae1832faed9">Tasker profile I made</a>.
+Tap &ldquo;profiles&rdquo; and then &ldquo;import&rdquo; in the Tasker app.</p></li>
+
+<li><p>Download <a href="https://gist.github.com/YaxelPerez/563748a1427990a8e7b7189dca7c6e71">this JS script</a>
+somewhere onto your phone. (<a href="https://tasker.joaoapps.com/userguide/en/javascript.html">Documentation for the Tasker JS API</a>).</p></li>
+
+<li><p>Tap on the profile and edit the task (right side) so that it can find the .js script. I put mine
+in <code>Download/</code> because I&rsquo;m lazy.</p></li>
+
+<li><p>Test the task (press play). It should vibrate &ldquo;SOS&rdquo; in morse code. If it doesn&rsquo;t, StackOverflow
+can&rsquo;t help you. Good luck.</p></li>
+
+<li><p>(OPTIONAL) Change the <code>%text</code> variable. I set it to vibrate the first 3 letters of the app that
+produced the notification, but you can change it to vibrate anything. (<a href="https://joaoapps.com/variables/">Full list of
+variables</a>)</p></li>
+
+<li><p>Go back and configure the AutoNotification Intercept behavior (tap profile, left side) to select
+which apps to listen to.</p></li>
+</ol>
+
+<p>If you followed all these steps plus some other ones that I forgot, you should now have a new way
+to read notifications. In my experience, friends and family will be marginally impressed.</p>
+
+<p>I&rsquo;ve only tested this on a Google Pixel 2. Your mileage may vary.</p>
+
+<h4 id="possible-improvements">Possible Improvements:</h4>
+
+<ul>
+<li><p>Increase WPM. I’m not very good at reading morse code so I keep it at ~15 WPM. More experienced
+users could probably set it higher, although I’m sure at some point you would reach the physical
+limitations of your phone’s vibrate feature. This is set in the .js file, but it should be set in
+the task itself.</p></li>
+
+<li><p>Disable the original notification vibration. Right now I have it set to wait 500ms because I couldn’t figure out how to get rid of the normal notification vibration.</p></li>
+</ul>
+
+<p></p>
+	</div>
+  <footer>
+    <a class="read-more" href="http://example.org/posts/hack_morse/"><nobr>Read more</nobr></a>
+	</footer>
+</article>
+
+		
+	</div>
+</div>
+  </body>
+</html>
