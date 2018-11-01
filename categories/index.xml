@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yaxel&#39;s Blog</title>
-    <link>http://example.org/categories/</link>
+    <link>http://yaxelperez.github.io/categories/</link>
     <description>Recent content in Categories on Yaxel&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yaxelperez.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hack</title>
-      <link>http://example.org/categories/hack/</link>
+      <link>http://yaxelperez.github.io/categories/hack/</link>
       <pubDate>Sun, 28 Oct 2018 21:31:58 -0700</pubDate>
       
-      <guid>http://example.org/categories/hack/</guid>
+      <guid>http://yaxelperez.github.io/categories/hack/</guid>
       <description></description>
     </item>
     

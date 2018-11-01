@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yaxel&#39;s Blog</title>
-    <link>http://example.org/</link>
+    <link>http://yaxelperez.github.io/</link>
     <description>Recent content on Yaxel&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Oct 2018 21:31:58 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yaxelperez.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hack: Morse Code Phone Notifications</title>
-      <link>http://example.org/posts/hack_morse/</link>
+      <link>http://yaxelperez.github.io/posts/hack_morse/</link>
       <pubDate>Sun, 28 Oct 2018 21:31:58 -0700</pubDate>
       
-      <guid>http://example.org/posts/hack_morse/</guid>
+      <guid>http://yaxelperez.github.io/posts/hack_morse/</guid>
       <description>&lt;p&gt;&lt;em&gt;Note: This only works on Android.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I was too lazy to pull out my phone to read notifications, so I programmed it to vibrate in morse
@@ -66,10 +66,10 @@ the task itself.&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>http://yaxelperez.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>http://yaxelperez.github.io/about/</guid>
       <description>Hey. I&amp;rsquo;m Yaxel and this is my blog.
 I&amp;rsquo;m a software developer and college freshman based in the Bay Area. I plan on double-majoring in Physics and Mathematics so that I sound smart. You can reach me at yaxelp [at] gmail [dot] com.</description>
     </item>

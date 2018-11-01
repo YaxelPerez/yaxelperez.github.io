@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hack on Yaxel&#39;s Blog</title>
-    <link>http://example.org/categories/hack/</link>
+    <link>http://yaxelperez.github.io/categories/hack/</link>
     <description>Recent content in Hack on Yaxel&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Oct 2018 21:31:58 -0700</lastBuildDate>
     
-	<atom:link href="http://example.org/categories/hack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://yaxelperez.github.io/categories/hack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hack: Morse Code Phone Notifications</title>
-      <link>http://example.org/posts/hack_morse/</link>
+      <link>http://yaxelperez.github.io/posts/hack_morse/</link>
       <pubDate>Sun, 28 Oct 2018 21:31:58 -0700</pubDate>
       
-      <guid>http://example.org/posts/hack_morse/</guid>
+      <guid>http://yaxelperez.github.io/posts/hack_morse/</guid>
       <description>&lt;p&gt;&lt;em&gt;Note: This only works on Android.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I was too lazy to pull out my phone to read notifications, so I programmed it to vibrate in morse

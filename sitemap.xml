@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/hack_morse/</loc>
+    <loc>http://yaxelperez.github.io/posts/hack_morse/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>http://yaxelperez.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://yaxelperez.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/hack/</loc>
-    <lastmod>2018-10-28T21:31:58-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/hack/</loc>
+    <loc>http://yaxelperez.github.io/tags/hack/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/javascript/</loc>
+    <loc>http://yaxelperez.github.io/categories/hack/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>http://yaxelperez.github.io/tags/javascript/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://yaxelperez.github.io/posts/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/tasker/</loc>
+    <loc>http://yaxelperez.github.io/tags/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://yaxelperez.github.io/tags/tasker/</loc>
+    <lastmod>2018-10-28T21:31:58-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://yaxelperez.github.io/</loc>
     <lastmod>2018-10-28T21:31:58-07:00</lastmod>
     <priority>0</priority>
   </url>
